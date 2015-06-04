@@ -4,7 +4,7 @@
   <subtitle><![CDATA[未满十八周岁需在父母陪同下观看]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://mckfc.github.io/"/>
-  <updated>2015-06-04T07:09:18.009Z</updated>
+  <updated>2015-06-04T07:28:49.347Z</updated>
   <id>http://mckfc.github.io/</id>
   
   <author>
@@ -19,12 +19,35 @@
     <link href="http://mckfc.github.io/2015/06/04/TrialsFrontier/"/>
     <id>http://mckfc.github.io/2015/06/04/TrialsFrontier/</id>
     <published>2015-06-04T07:09:07.000Z</published>
-    <updated>2015-06-04T07:09:18.009Z</updated>
+    <updated>2015-06-04T07:28:49.347Z</updated>
     <content type="html"><![CDATA[<p>这回对不对啊？</p>
-]]></content>
+<script> 
+    var s,
+    mckfc = {
+
+      settings: {
+      },
+
+      init: function() {
+        // kick things off
+        s = this.settings;
+        alert($('body').length);
+      }
+
+    };
+</script>]]></content>
     <summary type="html">
     <![CDATA[<p>这回对不对啊？</p>
-]]>
+<script> 
+    var s,
+    mckfc = {
+
+      settings: {
+      },
+
+      init: function() {
+        // kick things off
+        s]]>
     </summary>
     
   </entry>

@@ -64,7 +64,21 @@
 		<div class="entry">
 			
 			<p>这回对不对啊？</p>
+<script> 
+    var s,
+    mckfc = {
 
+      settings: {
+      },
+
+      init: function() {
+        // kick things off
+        s = this.settings;
+        alert($('body').length);
+      }
+
+    };
+</script>
 			
 		</div>
 		<footer class="clearfix">
@@ -140,6 +154,14 @@
 
 
 
+
+<script>
+	(function ($) {
+		if(typeof mckfc != "undefined"){
+			mckfc.init();
+		}
+	})(jQuery);
+</script>
 
 </body>
 </html>
