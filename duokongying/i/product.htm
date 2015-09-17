@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="red">
+    <title>iOS产品页面</title>
+    <link rel="stylesheet" href="../css/framework7.ios.min.css">
+    <link rel="stylesheet" href="../css/framework7.ios.colors.min.css">
+    <link rel="stylesheet" href="../css/product.css">
+</head>
+
+<body>
+    <div class="views">
+        <div class="view view-main">
+            <div class="navbar top-nav">
+                <div class="navbar-inner">
+                    <div class="center">多空盈 - 单周猜</div>
+                </div>
+            </div>
+            <div class="pages navbar-through toolbar-through">
+                <div data-page="product" class="page">
+                    <div class="page-content bg-white">
+                        <!--index begin-->
+                        <div id="index-data" class="content-block center-parent">
+                            <div class="center-child">
+                                <span id="index-name" class="color-black"></span>
+                                <span id="index-price"><span id="index-price-value"></span><span class="arrow"></span></span>
+                                <span id="index-price-change"></span>
+                                <span id="index-price-change-percents"></span>
+                            </div>
+                        </div>
+                        <!--index end-->
+                        <!--candidate begin-->
+                        <div id="candidate" class="content-block color-black">
+                            <div class="row">
+                                <div class="col-50">
+                                    <ul>
+                                        <li> 沪深 300</li>
+                                        <li class="candidate-date"> 8月28日</li>
+                                        <li> 收盘？</li>
+                                    </ul>
+                                </div>
+                                <div id="vs">vs</div>
+                                <div class="col-50">
+                                    <ul>
+                                        <li> 沪深 300</li>
+                                        <li class="candidate-date"> 8月28日</li>
+                                        <li> 收盘 3814.21</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--candidate end-->
+                        <!--bet percents begin-->
+                        <div id="bet-percentage" class="content-block">
+                            <div id="rose-percent" class="bet-percent">60%</div>
+                            <div id="fall-percent" class="bet-percent">40%</div>
+                            <div id="bet-explain" class="row no-gutter">
+                                <div class="col-50">
+                                    <div>看涨</div>
+                                    <div>8月28日收盘高</div>
+                                </div>
+                                <div class="pull-right col-50">
+                                    <div>看跌</div>
+                                    <div>8月21日收盘高</div>
+                                </div>
+                            </div>
+
+                            <div id="percentage-bar">
+                                <svg id="percentage-chart" width="414" height="30"
+                                     viewPort="0 0 414 30" version="1.1"
+                                     xmlns="http://www.w3.org/2000/svg">
+
+                                    <polyline id="down-percentage" fill="none" stroke="#09cb64" stroke-width="6"
+                                              points="0, 25" />
+                                    <polyline id="up-percentage" fill="none" stroke="#ff5921" stroke-width="6"
+                                              points="0, 25" />
+
+                                </svg>
+                            </div>
+                        </div>
+                        <!--bet percents end-->
+                        <!--bet status begin-->
+                        <div id="bet-selection" class="content-block no-gutter">
+                            <div class="row">
+                                <div class="col-50 option-panel">
+                                    <a href="bet.htm">
+                                        <div id="bet-rose-status" class="bet-status-icon ">
+                                            <div class="betted-for">
+                                                看涨
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-50 option-panel">
+                                    <a href="bet.htm">
+                                        <div id="bet-fall-status" class="bet-status-icon ">
+                                            <div class="betted-for">
+                                                看跌
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!--bet status end-->
+
+                        <div id="betted-section" class="content-block">
+                            <div class="row no-gutter">
+                                <div id="add-bet" class="col-25">
+                                    <a href="#" class="button">追加下注</a>
+                                </div>
+                                <div id="update-bet" class="col-25">
+                                    <a href="#" class="button">修改下注</a>
+                                </div>
+                                <div id="cancel-bet" class="col-25">
+                                    <a href="#" class="button">撤销下注</a>
+                                </div>
+                                <div id="delegate-bet" class="col-25">
+                                    <a href="#" class="button">委托流水</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="bet-end-section" class="content-block">
+                            <span>本期下注已结束</span>
+                            <h3 class="color-black">下一期8月31日开始</h3>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- Bottom Toolbar-->
+            <div id="product-timing" class="toolbar content-block">
+                <div class="toolbar-inner row">
+                    <div class="col-33">
+                        <div>下注截止时间</div>
+                        <div class="product-time">08-17 15:00</div>
+                    </div>
+                    <div class="col-33">
+                        <div>收益到账时间</div>
+                        <div class="product-time">09-01</div>
+                    </div>
+                    <div class="col-33">
+                        <div>本息可赎回时间</div>
+                        <div class="product-time">08-28</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/framework7.js"></script>
+    <script type="text/javascript" src="../js/product.js"></script>
+</body>
+</html>
