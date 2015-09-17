@@ -25,7 +25,7 @@ var newBetStatus = {
 };
 
 var productApp = new Framework7({
-    material: productApp.device.android
+    material: Framework7.prototype.device.android 
 });
 var $$ = Dom7;
 
