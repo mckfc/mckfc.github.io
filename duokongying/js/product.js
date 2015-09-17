@@ -14,7 +14,7 @@
         betLeft: false,//投左边？
         betAmount: 0//投注金额
     },
-    eventOpening: false,//活动是否进行中
+    eventOpening: true,//活动是否进行中
     minAmount: 1,//最小投注金额
     maxAmount: 300077//余额
 };
