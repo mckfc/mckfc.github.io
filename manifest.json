@@ -1,6 +1,6 @@
 {
-  "name": "App Install Banner Sample",
-  "short_name": "App Install Banner Sample",
+  "name": "Investor's Business Daily",
+  "short_name": "Investor's Business Daily",
   "icons": [{
      "src": "image/IBD-icon-48.png",
      "type": "image/png",
@@ -22,7 +22,7 @@
      "sizes": "152x152"
    }
  ],
-  "prefer_related_applications": true,
+//  "prefer_related_applications": true,
   "related_applications": [
     {
       "platform": "play",
