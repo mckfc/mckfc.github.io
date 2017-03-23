@@ -34,5 +34,11 @@
     }
   ],
   "start_url": "./index.html",
-  "display": "standalone"
+  "display": "standalone",
+  "related_applications": [
+  {
+  "platform": "play",
+  "id": "com.google.samples.apps.iosched"
+  }
+]
 }
