@@ -18,8 +18,8 @@
 'use strict';
 
 /* global importScripts, cacheManifest, clients */
-importScripts('/devsummit/static/scripts/cache-manifest.e4d4565d230031a1f3b6f652c9df00b3872cfbeb7c4442ae8e354594a361b944.js');
-importScripts('/devsummit/static/scripts/analytics.e9b65fca6bcd3826e18f64d886f9f627d02f182f83edc4a9919d53b015d40cee.js');
+importScripts('/devsummit/c.js');
+importScripts('/devsummit/a.js');
 
 self.analytics.trackingId = 'UA-41980257-1';
 
