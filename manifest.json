@@ -33,12 +33,13 @@
       "type": "image/png"
     }
   ],
-  "start_url": "./index.html",
-  "display": "standalone",
+  "prefer_related_applications": true,
   "related_applications": [
-  {
-  "platform": "play",
-  "id": "com.google.samples.apps.iosched"
-  }
-]
+    {
+      "platform": "play",
+      "id": "com.google.samples.apps.iosched"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone"
 }
